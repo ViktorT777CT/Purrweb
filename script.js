@@ -2,6 +2,7 @@ const hamb = document.querySelector("#hamb")
 const popup = document.querySelector("#popup")
 const menu = document.querySelector("#menu").cloneNode(1)
 const body = document.body;
+const video_text = document.querySelector("#video_text")
 
 hamb.addEventListener("click", hambHandler)
 
@@ -16,4 +17,20 @@ function hambHandler(e) {
 function renderPopup() {
     popup.appendChild(menu);
 }
+
+
+document.querySelector("#video_play").onclick = play;
+
+let video;
+let display;
+
+video = document.querySelector("#video1")
+
+function play(){
+    video.play();
+    video_text.style.cssText = "display:none";
+}
+
+
+
 
