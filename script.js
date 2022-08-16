@@ -4,6 +4,7 @@ const menu = document.querySelector("#menu").cloneNode(1)
 const body = document.body;
 const video_text = document.querySelector("#video_text")
 
+
 hamb.addEventListener("click", hambHandler)
 
 function hambHandler(e) {
@@ -34,3 +35,18 @@ function play(){
 
 
 
+const scroll_form = document.querySelector("#scroll_form")
+const form = document.querySelector("#form")
+
+
+function scrollTo(form){
+    window.scroll({
+        left: 0,
+        top: form.offsetTop,
+        behavior: 'smooth'
+    })
+}
+
+scroll_form.addEventListener("click",() => {
+    scrollTo(form);
+})
