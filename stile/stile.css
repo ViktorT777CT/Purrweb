@@ -276,6 +276,36 @@ h1{
 .video{
     position: relative;
 }
+.video_text{
+    position: absolute;
+    bottom: 75px;
+    left: 140px;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+.MSIGN{
+    margin-top: 0;
+    color: #FFFFFF;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.feature{
+    margin-bottom: 7px;
+    color: #FFFFFF;
+    font-family: "Raleway", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
 .form{    
     background-color: #232323;
 }
@@ -308,6 +338,9 @@ h1{
     padding-top: 30px;
     max-width: 640px;
     width: 100%;
+}
+.form_block_text{
+    max-width: 400px;
 }
 .form_name{
     max-width: 640px;
