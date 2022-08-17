@@ -20,7 +20,7 @@ body{
     background-image: url(/img/Bg.png);
     background-repeat: no-repeat;
     background-position: top center;
-    margin: 0;
+    margin: auto;
 }
 .header{
     margin: 30px auto;
@@ -430,6 +430,9 @@ footer{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.twitter_feed{
+    padding-top: 15px;
+}
 .twitter_header{
     width: 299px;
     height: 60px;
@@ -446,6 +449,46 @@ footer{
     display: block;
     margin: auto;
     padding-top: 10px;
+}
+.twitter_news{
+    background-color:#FFFFFF;
+    height: 235px;
+    width: 299px;
+}
+.news{
+    padding-left: 31px;
+    padding-top: 4px;
+}
+.news p{
+    margin: 0;
+}
+.news_head{
+    padding-top: 16px;
+    color: #999;
+    font-family: "Proxima Nova", "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.news_date{
+    color: #555;
+    font-family: "Proxima Nova", "Arial", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.news_src{
+    color: #7050E5;
+    font-family: "Proxima Nova", "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .saltgroup{
     color: #FFFFFF;
@@ -555,6 +598,9 @@ footer{
     }
 }
 @media (max-width: 1100px){
+    .marker{
+        display: none;
+    }
     .container{
         margin: auto;
         max-width: 950px;
