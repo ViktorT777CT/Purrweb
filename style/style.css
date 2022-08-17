@@ -17,7 +17,7 @@
 body{
     max-width: 1600px;
     width: 100%;
-    background-image: url("img/bg.png");
+    background-image: url(/img/bg.png);
     background-repeat: no-repeat;
     background-position: top center;
     margin: auto;
@@ -202,7 +202,7 @@ h1{
     margin-top: 0;
     padding-top: 60px;
     padding-right: 130px;
-    background-image: url(img/union_head.png);
+    background-image: url(/img/union_head.png);
     background-repeat: no-repeat;
     background-position: 82% 40%;
 }
@@ -314,8 +314,8 @@ h1{
     max-width: 1600px;
     width: 100%;
     margin: 0;
-    background: url(img/rectangle_1595.png) 0 0 no-repeat,
-    url(img/rectangle_1650.png) 650px 160px no-repeat;
+    background: url(/img/rectangle_1595.png) 0 0 no-repeat,
+    url(/img/rectangle_1650.png) 650px 160px no-repeat;
 }
 .form_cover{
     display: flex;
@@ -637,8 +637,8 @@ footer{
         height: 100%;
         width: 100%;
         margin: 0;
-        background: url(img/rectangle_1595.png) 0 0 no-repeat,
-        url(img/rectangle_1650.png) 450px 320px no-repeat;
+        background: url(/img/rectangle_1595.png) 0 0 no-repeat,
+        url(/img/rectangle_1650.png) 450px 320px no-repeat;
     }
     .device{
         max-width: 950px;
